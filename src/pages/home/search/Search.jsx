@@ -49,10 +49,10 @@ const Search = () => {
                     defaultValue="">
 
                         <option value="" disabled>MODEL</option>
-                        <option value="luxury">Luxury</option>
-                        <option value="suv">SUV</option>
-                        <option value="normal">Normal</option>
-                        <option value="used">Used</option>
+                        <option value="luxury">2015-2018</option>
+                        <option value="suv">2019-2020</option>
+                        <option value="normal">2021-2023</option>
+                        <option value="used">2024-2025</option>
 
                     </select>
                 </div>
