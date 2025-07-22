@@ -35,10 +35,10 @@ const Search = () => {
                     defaultValue="">
 
                         <option value="" disabled>BRAND</option>
-                        <option value="luxury">Luxury</option>
-                        <option value="suv">SUV</option>
-                        <option value="normal">Normal</option>
-                        <option value="used">Used</option>
+                        <option value="luxury">X-pander</option>
+                        <option value="suv">Mirage</option>
+                        <option value="normal">X-force</option>
+                        <option value="used">Montero</option>
 
                     </select>
                 </div>
