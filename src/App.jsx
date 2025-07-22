@@ -1,5 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Navbar from './components/navbar/Navbar';
+import Home from './pages/home/Home';
 
+
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -7,21 +11,21 @@ function App() {
       <Router>
         <main className="w-full min-h-screen bg-zinc-950 flex flex-col text-zinc-300 overflow-hidden">
           {/* Navbar */}
-          This is the navbar
+          <Navbar />
 
           {/* Routing */}
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
-            Home
+            <Route path="/" element={<Home />} />
+
           </Routes>
 
           {/* Footer */}
-          Footer
-
+          <Footer />
+          
         </main>
       </Router>
     </>
   )
 }
 
-export default App
+export default App;
