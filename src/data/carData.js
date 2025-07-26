@@ -13,6 +13,8 @@ export const cars = [
   },
   {
     id: 2,
+    price: "₱3,500,000",
+    year: "2023",
     name: "Toyota Supra GR",
     category: "sports",
     description: "High-performance coupe with iconic style and turbocharged engine.",
