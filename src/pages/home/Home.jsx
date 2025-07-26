@@ -14,14 +14,16 @@ const Home = () => {
       {/* Car category */}
       <Category />
 
+      {/* Cars */}
+      <Cars />
+
+      {/* Services */}
+      <Services />      
+      
       {/* Car Search */}
       <Search />
 
-      {/* Services */}
-      <Services />
 
-      {/* Cars */}
-      <Cars />
 
     </div>
   );
