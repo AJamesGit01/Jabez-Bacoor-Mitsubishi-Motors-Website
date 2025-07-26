@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const ServiceCard = ({icon: Icon, title, description}) => {
     return(
         <div className="w-full flex items-start gap-x-4 p-5 border-2 border-zinc-900 bg-zinc-900/15 rounded-xl hover:bg-zinc-900/25 hover:scale-110 ease-in-out duration-300"> 
