@@ -1,57 +1,14 @@
 import React, { useState } from "react";
 import Layout from "../../../components/layout/Layout";
 import { GoArrowUpRight } from "react-icons/go";
-import Mirage from "../../../assets/hero3.png";
-import Lambo from "../../../assets/hero2.png";
+import { cars } from "../../../data/carData";
+import CarCard from "../../../components/cars/CarCard";
 
-// Tabs
 const tabs = [
   { id: "all", title: "All Cars" },
   { id: "luxury", title: "Luxury" },
   { id: "sports", title: "Sports" },
   { id: "used", title: "Used Cars" },
-];
-
-// Sample car data
-const cars = [
-  {
-    id: 1,
-    name1: "Lamborghini Aventador",
-    category: "luxury",
-    description: "A luxury Italian sports car with aggressive design.",
-    image1: Mirage
-  },
-  {
-    id: 2,
-    name: "Toyota Supra GR",
-    category: "sports",
-    description: "High-performance coupe with iconic style and turbocharged engine.",
-    image2: Lambo
-  },
-  {
-    id: 3,
-    name: "BMW 7 Series",
-    category: "luxury",
-    description: "Premium sedan packed with luxury features and comfort.",
-  },
-  {
-    id: 4,
-    name: "Honda Civic Type R",
-    category: "sports",
-    description: "Sporty hatchback known for agility and power.",
-  },
-  {
-    id: 5,
-    name: "Toyota Vios 2016",
-    category: "used",
-    description: "Reliable and fuel-efficient, widely used in the Philippines.",
-  },
-  {
-    id: 6,
-    name: "Ford Everest 2015",
-    category: "used",
-    description: "Popular SUV with great resale value and rugged appeal.",
-  },
 ];
 
 const Cars = () => {
@@ -90,23 +47,10 @@ const Cars = () => {
         </ul>
       </div>
 
-      {/* Card Grid */}
+      {/* Car Cards */}
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 px-4">
         {filteredCars.map((car) => (
-          <div
-            key={car.id}
-            className="border border-zinc-700 bg-zinc-900 p-4 rounded-xl hover:shadow-lg transition"
-          >
-              <div className="h-48 w-full rounded-md mb-3 bg-zinc-800 flex items-center justify-center overflow-hidden">
-                <img
-                  src={car.image1}
-                  alt={car.name}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            <h3 className="text-lg font-semibold text-zinc-100">{car.name}</h3>
-            <p className="text-sm text-zinc-400">{car.description}</p>
-          </div>
+          <CarCard key={car.id} car={car} />
         ))}
       </div>
 
