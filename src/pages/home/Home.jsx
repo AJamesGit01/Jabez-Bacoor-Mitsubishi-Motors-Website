@@ -5,7 +5,8 @@ import Search from './search/Search';
 import Services from './services/Services';
 import Cars from './cars/Cars';
 import Banner from './banner/Banner';
-import Blogs from './blog/Blogs'; 
+import Blogs from './blog/Blogs';
+import Contacts from './contacts/Contacts'; 
 
 const Home = () => {
   return (
@@ -30,6 +31,10 @@ const Home = () => {
 
       {/* Blogs */}
       <Blogs />
+
+      {/* Contacts */}
+      <Contacts />
+
     </div>
   );
 };
