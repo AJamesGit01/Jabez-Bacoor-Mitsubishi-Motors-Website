@@ -22,15 +22,18 @@ const Banner = () => {
                 our financing options.
               </p>
             <div className="flex items-center justify-center md:justify-start md:gap-5 gap-3 flex-wrap md:mt-10 mt-6">
+              <a href="https://www.mitsubishi-motors.com.ph/dealer-locator" target="_blank">
                 <button className="cursor-pointer bg-red-700 text-zinc-50 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
                     Reserve Now
                     <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
                 </button>
-              
+              </a>
+              <a href="https://www.mitsubishi-motors.com.ph/about-us/contact-us" target="_blank">  
                 <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
                     Contact us
                     <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
                 </button>
+              </a>
             </div>
             </div>
         </div>
