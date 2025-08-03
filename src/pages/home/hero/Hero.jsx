@@ -29,15 +29,18 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center md:justify-start md:gap-5 gap-3 flex-wrap">
-            <button className="cursor-pointer bg-red-700 text-zinc-50 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
-              About Us
-              <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
-            </button>
-
-            <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
-              Explore Cars
-              <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
-            </button>
+            <a href="https://www.mitsubishi-motors.com.ph/about-us" target="_blank">
+              <button className="cursor-pointer bg-red-700 text-zinc-50 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
+                About Us
+                <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
+              </button>
+            </a>
+            <a href="https://www.mitsubishi-motors.com.ph/cars" target="_blank">
+              <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
+                Explore Cars
+                <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
+              </button>
+            </a>
           </div>
         </div>
 
