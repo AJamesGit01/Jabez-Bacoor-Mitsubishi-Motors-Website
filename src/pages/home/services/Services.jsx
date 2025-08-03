@@ -23,10 +23,12 @@ const Services = () => {
                     <p className="text-base text-zinc-500 font-normal">
                         We help you find your dream car with ease. From advanced search filters to personalized recommendations, we've got you covered.
                     </p>
+                    <a href="https://www.mitsubishi-motors.com.ph/service/service-guide" target="_blank">
                     <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
                         Explore More
                     <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
                     </button>
+                    </a>
                 </div>
                    
 
