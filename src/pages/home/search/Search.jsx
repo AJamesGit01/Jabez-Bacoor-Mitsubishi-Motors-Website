@@ -22,7 +22,7 @@ const Search = () => {
                     defaultValue="">
 
                         <option value="" disabled>CAR TYPE</option>
-                        <option value="luxury">Luxury</option>
+                        <option value="sport">Sport</option>
                         <option value="suv">SUV</option>
                         <option value="normal">Normal</option>
                         <option value="used">Used</option>
@@ -33,13 +33,15 @@ const Search = () => {
                 <div className="w-full h-14 col-span-2 border-zinc-700 rounded-xl px-3">
                     <select className="w-full h-full bg-zinc-900 text-zinc-50 border border-zinc-700 box-border focus:outline-none rounded-xl"
                     defaultValue="">
-
                         <option value="" disabled>BRAND</option>
-                        <option value="luxury">X-pander</option>
-                        <option value="suv">Mirage</option>
+                        <option value="luxury">X-pander Cross</option>
+                        <option value="suv">X-pander</option>
                         <option value="normal">X-force</option>
-                        <option value="used">Montero</option>
-
+                        <option value="normal">Mirage G4</option>
+                        <option value="normal">Mirage</option>
+                        <option value="sport">Montero Sport</option>
+                        <option value="sport">Triton</option>
+                        <option value="used">L300</option>      
                     </select>
                 </div>
 
@@ -47,13 +49,11 @@ const Search = () => {
 
                     <select className="w-full h-full bg-zinc-900 text-zinc-50 border border-zinc-700 box-border focus:outline-none rounded-xl"
                     defaultValue="">
-
                         <option value="" disabled>MODEL</option>
-                        <option value="luxury">2015-2018</option>
-                        <option value="suv">2019-2020</option>
-                        <option value="normal">2021-2023</option>
-                        <option value="used">2024-2025</option>
-
+                        <option value="luxury">2023</option>
+                        <option value="suv">2024</option>
+                        <option value="normal">2025</option>
+                        <option value="used">2026</option>
                     </select>
                 </div>
 
