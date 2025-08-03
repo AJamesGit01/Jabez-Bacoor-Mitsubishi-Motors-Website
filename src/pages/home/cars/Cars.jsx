@@ -56,10 +56,12 @@ const Cars = () => {
 
       {/* View All Button */}
       <div className="w-full flex items-center justify-center">
-        <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
-          View All Cars
-          <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
-        </button>
+        <a href="https://www.mitsubishi-motors.com.ph/cars" target="_blank">
+          <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
+            View All Cars
+            <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
+          </button>
+        </a>
       </div>
     </Layout>
   );
