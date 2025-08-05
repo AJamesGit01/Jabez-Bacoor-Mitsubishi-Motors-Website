@@ -6,20 +6,19 @@ import Cars from './pages/home/cars/Cars';
 import Services from './pages/home/services/Services'; 
 import Inventory from './pages/home/search/Search'; 
 import Events from "./pages/home/events/Events";
-import Blogs from './pages/home/blog/Blogs'; 
-
-
+import Blogs from './pages/home/blog/Blogs';
+import Contacts from './pages/home/contacts/Contacts'; 
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <>
-      <Router>
-        <main className="w-full min-h-screen bg-zinc-950 flex flex-col text-zinc-300 overflow-hidden">
-          {/* Navbar */}
-          <Navbar />
+    <Router>
+      <div className="flex flex-col min-h-screen bg-zinc-950 text-zinc-300 overflow-hidden">
+        {/* Navbar */}
+        <Navbar />
 
-          {/* Routing */}
+        {/* Main content area that grows to fill space */}
+        <div className="flex-grow pt-20 px-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -28,16 +27,15 @@ function App() {
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/events" element={<Events />} />
             <Route path="/blogs" element={<Blogs />} />
-           
-            {/* Add more routes as needed */}
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
+        </div>
 
-          {/* Footer */}
-          <Footer />
-        </main>
-      </Router>
-    </>
-  )
+        {/* Footer always at the bottom */}
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
