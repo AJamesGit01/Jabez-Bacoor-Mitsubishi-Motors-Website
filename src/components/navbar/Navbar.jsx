@@ -18,7 +18,7 @@ const Navbar = () => {
     { name: 'Inventory', link: '/inventory', active: false },
     { name: 'Events', link: '/events', active: false },
     { name: 'Blogs', link: '/blogs', active: false },
-    { name: 'Contact Us', link: '/contact-us', active: false },
+    { name: 'Contacts', link: '/contacts', active: false },
   ];
 
   return (
