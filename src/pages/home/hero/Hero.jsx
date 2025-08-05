@@ -7,51 +7,64 @@ import { GoArrowUpRight } from "react-icons/go";
 const Hero = () => {
   return (
     <div className="w-full md:h-screen h-auto pt-[9ch] relative flex items-center justify-center z-30">
-      <Layout className="flex md:flex-row flex-col flex-wrap items-center justify-between gap-16 z-50 flex-wrap">
+      <Layout className="flex md:flex-row flex-col items-center justify-between gap-10 md:gap-16 z-50">
         
         {/* Text Content */}
-        <div className="md:w-[40%] w-full md:space-y-16 space-y-10 text-center md:text-left">
-          <div className="space-y-5">
-            <div className="space-y-2">
-              <h6 className="text-lg text-zinc-300 font-medium uppercase">
+        <div className="md:w-[45%] w-full space-y-8 md:space-y-12 text-center md:text-left">
+          <div className="space-y-4 md:space-y-6">
+            <div className="space-y-1.5 md:space-y-2">
+              <h6 className="text-sm md:text-lg text-zinc-300 font-medium uppercase">
                 New Arrivals
               </h6>
-              <h1 className="md:text-7xl sm:text-5xl text-4xl text-zinc-50 font-bold uppercase leading-[1.3]">
-                Drive your Ambition In <span className="text-red-600">Mitsubishi</span>
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-zinc-50 font-bold uppercase leading-tight md:leading-[1.2]">
+                Drive your Ambition In{" "}
+                <span className="text-red-600">Mitsubishi</span>
               </h1>
             </div>
 
-            <p className="text-sm md:text-base text-zinc-400 font-normal">
-              Mitsubishi empowers you to move forward with confidence. Every vehicle is designed to reflect your drive your goals, your lifestyle, your passion. 
-              Chase your dreams fearlessly, take the wheel of life with determination, and go beyond limits. With Mitsubishi, you're not just driving a car
+            <p className="text-xs sm:text-sm md:text-base text-zinc-400 font-normal">
+              Mitsubishi empowers you to move forward with confidence. Every vehicle is designed to reflect your drive—your goals, your lifestyle, your passion.
+              Chase your dreams fearlessly, take the wheel of life with determination, and go beyond limits. With Mitsubishi, you're not just driving a car—
               you're <span className="text-red-600">Driving your ambition.</span>
             </p>
           </div>
 
-          <div className="flex items-center justify-center md:justify-start md:gap-5 gap-3 flex-wrap">
-            <a href="https://www.mitsubishi-motors.com.ph/about-us" target="_blank">
-              <button className="cursor-pointer bg-red-700 text-zinc-50 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 md:gap-5">
+            <a
+              href="https://www.mitsubishi-motors.com.ph/about-us"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="cursor-pointer bg-red-700 text-zinc-50 px-4 md:px-6 py-2.5 md:py-4 rounded-full uppercase text-xs md:text-base font-medium group flex items-center justify-center gap-x-2 md:gap-x-3 transition duration-300">
                 About Us
-                <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
+                <GoArrowUpRight className="text-lg md:text-xl group-hover:rotate-45 transition duration-300" />
               </button>
             </a>
-            <a href="https://www.mitsubishi-motors.com.ph/cars" target="_blank">
-              <button className="cursor-pointer border border-zinc-300 text-zinc-300 md:px-6 px-3.5 md:py-4 py-2.5 rounded-full uppercase md:text-base text-sm font-medium group flex items-center justify-center md:gap-x-3 gap-x-1.5 ease-in-out duration-300">
+            <a
+              href="https://www.mitsubishi-motors.com.ph/cars"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="cursor-pointer border border-zinc-300 text-zinc-300 px-4 md:px-6 py-2.5 md:py-4 rounded-full uppercase text-xs md:text-base font-medium group flex items-center justify-center gap-x-2 md:gap-x-3 transition duration-300">
                 Explore Cars
-                <GoArrowUpRight className="text-xl group-hover:rotate-45 ease-in-out duration-300" />
+                <GoArrowUpRight className="text-lg md:text-xl group-hover:rotate-45 transition duration-300" />
               </button>
             </a>
           </div>
         </div>
 
         {/* Hero Image */}
-        <div className="md:w-[55%] w-full h-auto">
-          <img src={HeroImg} alt="Hero Car" className="w-full h-auto object-contain" />
+        <div className="md:w-[50%] w-full flex justify-center md:justify-end">
+          <img
+            src={HeroImg}
+            alt="Hero Car"
+            className="w-full max-w-[600px] h-auto object-contain"
+          />
         </div>
       </Layout>
 
-      {/* Background Circle (only for large screens) */}
-      <div className="absolute md:flex hidden w-[1000px] h-[650px] rounded-full -top-24 -right-96 -rotate-[35deg] bg-gradient-to-r from-red-950/80 via-zinc-950 to-transparent"></div>
+      {/* Background Circle */}
+      <div className="absolute hidden md:block w-[900px] h-[600px] rounded-full -top-24 -right-96 -rotate-[35deg] bg-gradient-to-r from-red-950/80 via-zinc-950 to-transparent"></div>
     </div>
   );
 };
