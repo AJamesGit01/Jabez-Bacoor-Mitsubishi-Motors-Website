@@ -2,10 +2,9 @@ import React from "react";
 import Layout from "../../../components/layout/Layout";
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 
-
 const Contacts = () => {
   return (
-    <section className="bg-black text-white py-12 px-4 text-center">
+    <section className="bg-zinc-950 text-white py-50 px-4 text-center">
       <h2 className="md:text-3xl text-xl font-bold text-zinc-50 uppercase tracking-wide">
        Connect with <span className="text-red-600">Us</span>
       </h2>
