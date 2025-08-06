@@ -1,5 +1,5 @@
 import MirageG4 from '../assets/hero3.png';
-import Lambo from '../assets/hero2.png';
+import Xpander from '../assets/hero2.png';
 
 export const cars = [
   {
@@ -13,12 +13,12 @@ export const cars = [
   },
   {
     id: 2,
-    price: "₱3,500,000",
+    price: "₱1,068,000",
     year: "2023",
-    name: "Toyota Supra GR",
+    name: "Xpander GLX 1.5G 2WD M/T",
     category: "sports",
     description: "High-performance coupe with iconic style and turbocharged engine.",
-    image: Lambo,
+    image: Xpander,
   },
   {
     id: 3,
