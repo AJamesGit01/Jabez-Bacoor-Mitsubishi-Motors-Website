@@ -6,7 +6,7 @@ import CarCard from "../../../components/cars/CarCard";
 
 const tabs = [
   { id: "all", title: "All Cars" },
-  { id: "luxury", title: "Luxury" },
+  { id: "pick-ups", title: "Pick-Ups" },
   { id: "sports", title: "Sports" },
   { id: "used", title: "Used Cars" },
 ];
