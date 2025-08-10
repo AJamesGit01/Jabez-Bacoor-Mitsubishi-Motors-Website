@@ -108,14 +108,6 @@ export const cars = [
     description: "Description of the car.",
   },
   {
-    id: 12,
-    year: "2026",
-    price: "₱1,454,000.00",
-    name: "Triton 2.4D GLX 2WD AT",
-    category: "pick-ups",
-    description: "Description of the car.",
-  },
-  {
     id: 13,
     year: "2025",
     price: "₱1,351,000.00",
@@ -130,6 +122,14 @@ export const cars = [
     name: "Triton 2.4D GL 4WD MT",
     category: "pick-ups",
     description: "Description of the car.",
+  },  
+  {
+    id: 18,
+    year: "2025",
+    price: "₱1,423,000.00",
+    name: "Triton 2.4D GLX 2WD AT",
+    category: "pick-ups",
+    description: "Description of the car.",
   },
   {
     id: 15,
@@ -142,19 +142,20 @@ export const cars = [
   {
     id: 16,
     year: "2026",
-    price: "₱1,152,000.00",
+    price: "₱1,382,000.00",
     name: "Triton 2.4D GLX 2WD MT",
     category: "pick-ups",
     description: "Description of the car.",
   },
   {
     id: 17,
-    year: "2025",
-    price: "₱1,423,000.00",
+    year: "2026",
+    price: "₱1,454,000.00",
     name: "Triton 2.4D GLX 2WD AT",
     category: "pick-ups",
     description: "Description of the car.",
   },
+
 
   // Montero
 
