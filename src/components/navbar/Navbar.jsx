@@ -13,10 +13,10 @@ const Navbar = () => {
     { name: 'About', link: '/about', active: false },
     { name: 'Cars', link: '/cars', active: false },
     { name: 'Services', link: '/services', active: false },
-    { name: 'Inventory', link: '/inventory', active: false },
     { name: 'Events', link: '/events', active: false },
     { name: 'Blogs', link: '/blogs', active: false },
     { name: 'Contacts', link: '/contacts', active: false },
+    { name: 'Verified Agents', link: '/agents', active: false },
   ];
 
   return (

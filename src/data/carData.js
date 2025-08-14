@@ -1,8 +1,37 @@
-import MirageBlackSeriesCVT from '../assets/hero3.png'; // change this pic
-import MirageCVT from '../assets/hero3.png'; // change this pic
-import MirageG4_GLX_MT from '../assets/hero3.png';
-import MirageG4_GLX_CVT from '../assets/hero3.png';
-import MirageG4_GLS_CVT from '../assets/hero3.png';
+// Mirage
+
+import MirageBlackSeriesCVT from '../assets/Mirage/1-Mirage G4 GLS BLACK SERIES 1.2G CVT.png'; 
+import MirageCVT from '../assets/Mirage/8-Mirage GLX 1.2G CVT.png'; 
+import MirageG4_GLX_MT from '../assets/Mirage/7-Mirage G4 GLX 1.2G MT (RED).png';
+import MirageG4_GLX_CVT from '../assets/Mirage/5-Mirage G4 GLX 1.2G CVT.png';
+import MirageG4_GLS_CVT from '../assets/Mirage/3-Mirage G4 GLS 1.2G CVT.png';
+import MirageG4_GLX_MT_2026 from '../assets/Mirage/6-Mirage G4 GLX 1.2G MT -2026.png';
+import MirageG4_GLX_CVT_2026 from '../assets/Mirage/4-Mirage G4 GLX 1.2G CVT - 2026.png';
+import MirageG4_GLS_CVT_2026 from '../assets/Mirage/2-Mirage G4 GLS 1.2G CVT - 2026.png';
+
+// Triton
+
+import Triton_Athlete_4WD_AT from '../assets/Triton/Triton 2.4D Athlete 4WD AT.png';
+import Triton_GLS_2WD_AT from '../assets/Triton/Triton 2.4D GLS 2WD AT.png';
+import Triton_GL_4WD_MT from '../assets/Triton/Triton GL 4WD MT.png';
+import Triton_GLX_2WD_AT from '../assets/Triton/Triton 2.4D GLX 2WD AT.png';
+import Triton_GLX_2WD_MT from  '../assets/Triton/Triton 2.4D GLX 2WD MT.png';
+import Triton_GL_2WD_MTL from '../assets/Triton/Triton 2.4D GL 4WD MT.png';
+import Triton__GL_2WD_MTP from '../assets/Triton/Triton 2.4D GL 2WD MT.png';
+import Triton_GLX_2WD_MTS from '../assets/Triton/Triton 2.4D GLX 2WD MT.png';
+import Triton_GLX_2WD_ATS from '../assets/Triton/Triton 2.4D GLX 2WD AT.png';
+
+// Montero
+
+import Montero_Sport_GLX_2WD_MT from '../assets/Montero/Montero Sport GLX 2.4D 2WD MT.png';
+import Montero_Sport_GLX_2WD_MTW from '../assets/Montero/Montero Sport GLX 2.4D 2WD MT (WHITE).png';
+import Montero_Sport_GLS_2WD_AT from '../assets/Montero/Montero Sport GLS 2.4D 2WD AT.png';
+import Montero_Sport_GLS_2WD_ATS from '../assets/Montero/Montero Sport GLS 2.4D 2WD AT (WHITE).png';
+import Montero_Sport_BlackSeries_2WD_AT from '../assets/Montero/Montero Sport Black Series 2WD AT.png';
+import Montero_Sport_BlackSeries_2WD_ATW from '../assets/Montero/Montero Sport Black Series 2WD AT (WHITE).png';
+import Montero_Sport_BlackSeries_4WD_AT from '../assets/Montero/Montero Sport Black Series 2WD AT.png';
+import Montero_Sport_BlackSeries_4WD_AT_RALLIART from '../assets/Montero/Montero Sport Black Series 4WD AT (RALLIART).png';
+ 
 
 export const cars = [
 
@@ -60,7 +89,7 @@ export const cars = [
     name: "Mirage G4 GLX 1.2G M/T",
     category: "sedan",
     description: "Description of the car.",
-    image: MirageG4_GLX_MT,
+    image: MirageG4_GLX_MT_2026,
   },
     {
     id: 7,
@@ -69,7 +98,7 @@ export const cars = [
     name: "Mirage G4 GLX 1.2G CVT",
     category: "sedan",
     description: "Description of the car.",
-    image: MirageG4_GLX_MT,
+    image: MirageG4_GLX_CVT_2026,
   },
     {
     id: 8,
@@ -78,7 +107,7 @@ export const cars = [
     name: "Mirage G4 GLS 1.2G CVT",
     category: "sedan",
     description: "Description of the car.",
-    image: MirageG4_GLX_MT,
+    image: MirageG4_GLS_CVT_2026,
   },
 
   // Triton 
@@ -90,6 +119,7 @@ export const cars = [
     name: "Triton 2.4D Athlete 4WD AT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_Athlete_4WD_AT,
   },
   {
     id: 10,
@@ -98,6 +128,7 @@ export const cars = [
     name: "Triton 2.4D GLS 2WD AT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_GLS_2WD_AT,
   },
   {
     id: 11,
@@ -106,14 +137,25 @@ export const cars = [
     name: "Triton GL 4WD MT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_GL_4WD_MT,
   },
   {
     id: 12,
+    year: "2026",
+    price: "₱1,454,000.00",
+    name: "Triton 2.4D GLX 2WD AT",
+    category: "pick-ups",
+    description: "Description of the car.",
+    image: Triton_GLX_2WD_AT, 
+  },
+  {
+    id: 13,
     year: "2025",
     price: "₱1,351,000.00",
     name: "Triton 2.4D GLX 2WD MT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_GLX_2WD_MT,
   },
   {
     id: 13,
@@ -122,14 +164,7 @@ export const cars = [
     name: "Triton 2.4D GL 4WD MT",
     category: "pick-ups",
     description: "Description of the car.",
-  },  
-  {
-    id: 14,
-    year: "2025",
-    price: "₱1,423,000.00",
-    name: "Triton 2.4D GLX 2WD AT",
-    category: "pick-ups",
-    description: "Description of the car.",
+    image: Triton_GL_2WD_MTL,
   },
   {
     id: 15,
@@ -138,6 +173,7 @@ export const cars = [
     name: "Triton 2.4D GL 2WD MT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton__GL_2WD_MTP,
   },
   {
     id: 16,
@@ -146,6 +182,7 @@ export const cars = [
     name: "Triton 2.4D GLX 2WD MT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_GLX_2WD_MTS,
   },
   {
     id: 17,
@@ -154,6 +191,7 @@ export const cars = [
     name: "Triton 2.4D GLX 2WD AT",
     category: "pick-ups",
     description: "Description of the car.",
+    image: Triton_GLX_2WD_ATS,
   },
 
 
@@ -166,6 +204,7 @@ export const cars = [
     name: "Montero Sport GLX 2.4D 2WD MT",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_GLX_2WD_MT,
   },
   {
     id: 19,
@@ -174,6 +213,7 @@ export const cars = [
     name: "Montero Sport GLX 2.4D 2WD MT (WHITE)",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_GLX_2WD_MTW,
   },
   {
     id: 20,
@@ -182,6 +222,7 @@ export const cars = [
     name: "Montero Sport GLS 2.4D 2WD AT",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_GLS_2WD_AT,
   },
     {
     id: 21,
@@ -190,6 +231,7 @@ export const cars = [
     name: "Montero Sport GLS 2.4D 2WD AT (WHITE)",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_GLS_2WD_ATS,
   },
   {
     id: 22,
@@ -197,6 +239,7 @@ export const cars = [
     name: "Montero Sport Black Series 2WD AT",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_BlackSeries_2WD_AT,
   },
     {
     id: 23,
@@ -204,6 +247,7 @@ export const cars = [
     name: "Montero Sport Black Series 2WD AT (WHITE)",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_BlackSeries_2WD_ATW,
   },
   {
     id: 24,
@@ -211,6 +255,7 @@ export const cars = [
     name: "Montero Sport Black Series 4WD AT",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_BlackSeries_4WD_AT,
   },
   {
     id: 25,
@@ -218,6 +263,7 @@ export const cars = [
     name: "Montero Sport Black Series 4WD AT (RALLIART)",
     category: "sports",
     description: "Description of the car.",
+    image: Montero_Sport_BlackSeries_4WD_AT_RALLIART,
   },
 
   // Xpander
