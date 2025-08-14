@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import About from "./pages/home/about/About"; 
 import Cars from './pages/home/cars/Cars'; 
 import Services from './pages/home/services/Services'; 
-import Inventory from './pages/home/search/Search'; 
+import Agents from './pages/home/agents/Agents'; // ✅ Correct path
 import Events from "./pages/home/events/Events";
 import Blogs from './pages/home/blog/Blogs';
 import Contacts from './pages/home/contacts/Contacts'; 
@@ -14,24 +14,19 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen bg-zinc-950 text-zinc-300 overflow-hidden">
-        {/* Navbar */}
         <Navbar />
-
-        {/* Main content area that grows to fill space */}
         <div className="flex-grow pt-20 px-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/cars" element={<Cars />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/inventory" element={<Inventory />} />
+            <Route path="/agents" element={<Agents />} />
             <Route path="/events" element={<Events />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </div>
-
-        {/* Footer always at the bottom */}
         <Footer />
       </div>
     </Router>

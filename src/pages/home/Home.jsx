@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './hero/Hero';
 import Category from './category/Category';
-import Search from './search/Search';
+import Agents from './agents/Agents';
 import Services from './services/Services';
 import Cars from './cars/Cars';
 import Banner from './banner/Banner';
@@ -23,8 +23,8 @@ const Home = () => {
       {/* Services */}
       <Services />      
       
-      {/* Car Search */}
-      <Search />
+      {/* Verified Agents */}
+      <Agents />
 
       {/* Banner (Events)*/}
       <Banner />
