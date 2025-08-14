@@ -18,8 +18,8 @@ import Triton_GLX_2WD_AT from '../assets/Triton/Triton 2.4D GLX 2WD AT.png';
 import Triton_GLX_2WD_MT from  '../assets/Triton/Triton 2.4D GLX 2WD MT.png';
 import Triton_GL_2WD_MTL from '../assets/Triton/Triton 2.4D GL 4WD MT.png';
 import Triton__GL_2WD_MTP from '../assets/Triton/Triton 2.4D GL 2WD MT.png';
-import Triton_GLX_2WD_MTS from '../assets/Triton/Triton 2.4D GLX 2WD MT.png';
-import Triton_GLX_2WD_ATS from '../assets/Triton/Triton 2.4D GLX 2WD AT.png';
+import Triton_GLX_2WD_MTS from '../assets/Triton/Triton 2.4D GLX 2WD MT -2026.png';
+import Triton_GLX_2WD_ATS from '../assets/Triton/Triton 2.4D GLX 2WD AT-2026.png';
 
 // Montero
 
@@ -29,7 +29,7 @@ import Montero_Sport_GLS_2WD_AT from '../assets/Montero/Montero Sport GLS 2.4D 2
 import Montero_Sport_GLS_2WD_ATS from '../assets/Montero/Montero Sport GLS 2.4D 2WD AT (WHITE).png';
 import Montero_Sport_BlackSeries_2WD_AT from '../assets/Montero/Montero Sport Black Series 2WD AT.png';
 import Montero_Sport_BlackSeries_2WD_ATW from '../assets/Montero/Montero Sport Black Series 2WD AT (WHITE).png';
-import Montero_Sport_BlackSeries_4WD_AT from '../assets/Montero/Montero Sport Black Series 2WD AT.png';
+import Montero_Sport_BlackSeries_4WD_AT from '../assets/Montero/Montero Sport Black Series 4WD AT.png';
 import Montero_Sport_BlackSeries_4WD_AT_RALLIART from '../assets/Montero/Montero Sport Black Series 4WD AT (RALLIART).png';
  
 
@@ -141,8 +141,8 @@ export const cars = [
   },
   {
     id: 12,
-    year: "2026",
-    price: "₱1,454,000.00",
+    year: "2025",
+    price: "₱1,134,000.00",
     name: "Triton 2.4D GLX 2WD AT",
     category: "pick-ups",
     description: "Description of the car.",
@@ -158,8 +158,8 @@ export const cars = [
     image: Triton_GLX_2WD_MT,
   },
   {
-    id: 13,
-    year: "2025.00",
+    id: 14,
+    year: "2025",
     price: "₱1,157,000.00",
     name: "Triton 2.4D GL 4WD MT",
     category: "pick-ups",
@@ -235,6 +235,7 @@ export const cars = [
   },
   {
     id: 22,
+    year: "2025",
     price: "₱2,162,000.00",
     name: "Montero Sport Black Series 2WD AT",
     category: "sports",
@@ -243,6 +244,7 @@ export const cars = [
   },
     {
     id: 23,
+    year: "2025",
     price: "₱2,177,000.00",
     name: "Montero Sport Black Series 2WD AT (WHITE)",
     category: "sports",
@@ -251,6 +253,7 @@ export const cars = [
   },
   {
     id: 24,
+    year: "2025",
     price: "₱2,502,000.00",
     name: "Montero Sport Black Series 4WD AT",
     category: "sports",
@@ -259,6 +262,7 @@ export const cars = [
   },
   {
     id: 25,
+    year: "2025",
     price: "₱2,277,000.00",
     name: "Montero Sport Black Series 4WD AT (RALLIART)",
     category: "sports",

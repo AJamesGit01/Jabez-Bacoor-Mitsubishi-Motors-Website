@@ -43,7 +43,7 @@ const Agents = () => {
           placeholder="Enter agent name..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full p-3 rounded-lg bg-zinc-800 text-white outline-none"v
+          className="w-full p-3 rounded-lg bg-zinc-800 text-white outline-none"
         />
         <button
           onClick={() => setSearchClicked(true)}
