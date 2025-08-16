@@ -390,7 +390,7 @@ export const cars = [
     name: "X-Force GT 1.5G 2WD CVT",
     category: "suv",
     description: "Description of the car.",
-    image: XForce_GT_1_5G_2WD_CVT, // Assuming the same image for GT as GLS
+    image: XForce_GT_1_5G_2WD_CVT, 
   },
   {
     id: 37,
@@ -399,7 +399,7 @@ export const cars = [
     name: "X-Force GT 1.5G 2WD CVT (WHITE)",
     category: "suv",
     description: "Description of the car.",
-    image: XForce_GT_1_5G_2WD_CVT_WHITE, // Assuming the same image for GT as GLS
+    image: XForce_GT_1_5G_2WD_CVT_WHITE, 
   },
   {
     id: 38,
