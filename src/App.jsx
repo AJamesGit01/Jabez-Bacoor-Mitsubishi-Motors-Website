@@ -4,7 +4,7 @@ import Home from './pages/home/Home';
 import About from "./pages/home/about/About"; 
 import Cars from './pages/home/cars/Cars'; 
 import Services from './pages/home/services/Services'; 
-import Agents from './pages/home/agents/Agents'; // ✅ Correct path
+import Agents from './pages/home/agents/Agents'; 
 import Events from "./pages/home/events/Events";
 import Blogs from './pages/home/blog/Blogs';
 import Contacts from './pages/home/contacts/Contacts'; 
