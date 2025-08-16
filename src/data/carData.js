@@ -31,7 +31,25 @@ import Montero_Sport_BlackSeries_2WD_AT from '../assets/Montero/Montero Sport Bl
 import Montero_Sport_BlackSeries_2WD_ATW from '../assets/Montero/Montero Sport Black Series 2WD AT (WHITE).png';
 import Montero_Sport_BlackSeries_4WD_AT from '../assets/Montero/Montero Sport Black Series 4WD AT.png';
 import Montero_Sport_BlackSeries_4WD_AT_RALLIART from '../assets/Montero/Montero Sport Black Series 4WD AT (RALLIART).png';
- 
+
+// Xpander
+
+import Xpander_GLX_1_5G_2WD_MT from '../assets/Xpander/Xpander GLX 1.5G 2WD MT.png';
+import Xpander_GLX_1_5G_2WD_AT from '../assets/Xpander/Xpander GLX 1.5G 2WD AT.png';
+import Xpander_GLS_1_5G_2WD_AT from '../assets/Xpander/Xpander GLS 1.5G 2WD AT.png';
+import Xpander_GLS_1_5G_2WD_ATW from '../assets/Xpander/Xpander GLS 1.5G 2WD AT (WHITE).png';
+import Xpander_CROSS_1_5G_2WD_AT_MONOTONE from '../assets/Xpander/Xpander CROSS 1.5G 2WD AT (MONOTONE).png';
+import Xpander_CROSS_1_5G_2WD_AT_ORANGE from '../assets/Xpander/Xpander CROSS 1.5G 2WD AT (TWOTONE ORANGE).png';
+import Xpander_CROSS_1_5G_2WD_ATW from '../assets/Xpander/Xpander CROSS 1.5G 2WD AT (TWOTONE WHITE).png';
+import Xpander_CROSS_1_5G_2WD_AT from '../assets/Xpander/Xpander CROSS 1.5G 2WD AT.png';
+
+// X-Force
+
+import XForce_GLS_1_5G_2WD_CVT from '../assets/X-Force/X-Force GLS 1.5G 2WD CVT.png';
+import XForce_GLS_1_5G_2WD_CVT_WHITE from '../assets/X-Force/X-Force GLS 1.5G 2WD CVT (WHITE).png';
+import XForce_GT_1_5G_2WD_CVT from '../assets/X-Force/X-Force GT 1.5G 2WD CVT.png';
+import XForce_GT_1_5G_2WD_CVT_WHITE from '../assets/X-Force/X-Force GT 1.5G 2WD CVT (WHITE).png';
+import L300_FB_Dual_AC_MT from '../assets/X-force/Truck/L300 CC w-FB Body & Dual AC MT.png';
 
 export const cars = [
 
@@ -279,6 +297,7 @@ export const cars = [
     name: "Xpander GLX 1.5G 2WD MT",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_GLX_1_5G_2WD_MT,
   },
   {
     id: 27,
@@ -287,6 +306,7 @@ export const cars = [
     name: "Xpander GLX 1.5G 2WD AT",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_GLX_1_5G_2WD_AT,
   },
   {
     id: 28,
@@ -295,6 +315,7 @@ export const cars = [
     name: "Xpander GLS 1.5G 2WD AT",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_GLS_1_5G_2WD_AT,
   },
   {
     id: 29,
@@ -303,6 +324,7 @@ export const cars = [
     name: "Xpander GLS 1.5G 2WD AT (WHITE)",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_GLS_1_5G_2WD_ATW,
   },
   {
     id: 30,
@@ -311,6 +333,7 @@ export const cars = [
     name: "Xpander CROSS 1.5G 2WD AT (MONOTONE)",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_CROSS_1_5G_2WD_AT_MONOTONE,
   },
   {
     id: 31,
@@ -319,6 +342,7 @@ export const cars = [
     name: "Xpander CROSS 1.5G 2WD AT (TWOTONE ORANGE)",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_CROSS_1_5G_2WD_AT_ORANGE,
   },
   {
     id: 32,
@@ -327,6 +351,7 @@ export const cars = [
     name: "Xpander CROSS 1.5G 2WD AT (TWOTONE WHITE)",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_CROSS_1_5G_2WD_ATW,
   },
   {
     id: 33,
@@ -335,6 +360,7 @@ export const cars = [
     name: "Xpander CROSS 1.5G 2WD AT",
     category: "mpv",
     description: "Description of the car.",
+    image: Xpander_CROSS_1_5G_2WD_AT,
   },
 
  // Xforce
@@ -346,6 +372,7 @@ export const cars = [
     name: "X-Force GLS 1.5G 2WD CVT",
     category: "suv",
     description: "Description of the car.",
+    image: XForce_GLS_1_5G_2WD_CVT,
   },
   {
     id: 35,
@@ -354,6 +381,7 @@ export const cars = [
     name: "X-Force GLS 1.5G 2WD CVT (WHITE)",
     category: "suv",
     description: "Description of the car.",
+    image: XForce_GLS_1_5G_2WD_CVT_WHITE,
   },
   {
     id: 36,
@@ -362,6 +390,7 @@ export const cars = [
     name: "X-Force GT 1.5G 2WD CVT",
     category: "suv",
     description: "Description of the car.",
+    image: XForce_GT_1_5G_2WD_CVT, // Assuming the same image for GT as GLS
   },
   {
     id: 37,
@@ -370,13 +399,15 @@ export const cars = [
     name: "X-Force GT 1.5G 2WD CVT (WHITE)",
     category: "suv",
     description: "Description of the car.",
+    image: XForce_GT_1_5G_2WD_CVT_WHITE, // Assuming the same image for GT as GLS
   },
   {
     id: 38,
     price: "₱1,034,380.00",
     year: "2025",
     name: "L300 CC w/FB Body & Dual AC MT",
-    category: "suv",
+    category: "all",
     description: "Description of the car.",
+    image: L300_FB_Dual_AC_MT,
   },
 ];
