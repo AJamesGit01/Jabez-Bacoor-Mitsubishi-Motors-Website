@@ -3,6 +3,7 @@ import Layout from "../../../components/layout/Layout";
 import { GoArrowUpRight } from "react-icons/go";
 import { cars } from "../../../data/carData";
 import CarCard from "../../../components/cars/CarCard";
+import { MdInfoOutline } from "react-icons/md";
 
 const tabs = [
   { id: "all", title: "All Cars" },
@@ -24,10 +25,20 @@ const Cars = () => {
     <Layout className="space-y-10">
       {/* Header */}
       <div className="w-full flex items-center justify-center text-center space-y-3 flex-col">
-        <h6 className="text-lg text-zinc-300 uppercase font-medium">What brands we offer?</h6>
+        <h6 className="text-lg text-zinc-300 uppercase font-medium">What brands model we offer?</h6>
         <h1 className="md:text-5xl text-xl font-bold text-zinc-50 uppercase tracking-wide">
           Featured <span className="text-red-600">Cars</span>
         </h1>
+          {/* Disclaimer */}
+        <p className="flex items-start gap-2 bg-zinc-800/60 border border-zinc-700 text-xs md:text-sm text-zinc-300 max-w-xl mt-3 p-3 rounded-lg">
+          <MdInfoOutline className="text-red-500 text-lg flex-shrink-0 mt-0.5" />
+          <span className="italic"
+           style={{ fontFamily: "arial" }}
+          > 
+          Disclaimer: The prices shown in the images may not reflect the actual cost 
+          of the vehicle. These are provided for reference purposes only.
+          </span>
+        </p>
       </div>
 
       {/* Tabs */}
