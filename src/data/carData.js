@@ -55,14 +55,19 @@ export const cars = [
 
   // Mirage 
 
-  {
-    id: 1,
-    price: "₱909,000.00",
-    year: "2024",
-    name: "Mirage G4 GLS BLACK SERIES 1.2G CVT",
-    category: "sedan",
-    description: "Description of the car.",
-    image: MirageBlackSeriesCVT,
+ {
+  id: 1,
+  price: "₱909,000.00",
+  year: "2024",
+  name: "Mirage G4 GLS BLACK SERIES 1.2G CVT",
+  category: "sedan",
+  description: [
+    "Engine & Transmission: 1.2L MIVEC DOHC, CVT",
+    "Power Output: 76–78 HP, 100 Nm torque",
+    "Fuel Efficiency: 20–21 km/L (highway)",
+    "Safety: Dual airbags, ABS, EBD",
+  ],
+  image: MirageBlackSeriesCVT,
   },
   {
     id: 2,
@@ -70,7 +75,12 @@ export const cars = [
     year: "2025",
     name: "Mirage GLX 1.2G CVT",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L 3-Cylinder MIVEC DOHC, CVT",
+    "Power Output: 76 hp @ 6000 rpm, 100 Nm torque @ 4000 rpm",
+    "Fuel Efficiency: 20-23 km/L (highway)",
+    "Safety: Dual SRS Airbags, ABS with EBD, ISOFIX child seat anchors",
+  ],
     image: MirageCVT,
   },
   {
@@ -79,7 +89,12 @@ export const cars = [
     year: "2025",
     name: "Mirage G4 GLX 1.2G M/T",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC, 5-Speed Manual",
+    "Power Output: 78 hp @ 6,000 rpm, 100 Nm torque @ 4,000 rpm",
+    "Fuel Efficiency: 20-21 km/L (highway), ~14-15 km/L (city)",
+    "Safety: Dual SRS Airbags, ABS with EBD, Reinforced Impact Safety",
+  ],
     image: MirageG4_GLX_MT,
   },
   {
@@ -88,7 +103,12 @@ export const cars = [
     year: "2025",
     name: "Mirage G4 GLX 1.2G CVT",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC, CVT (Continuously Variable Transmission)",
+    "Power Output: 78 hp @ 6,000 rpm, 100 Nm torque @ 4,000 rpm",
+    "Fuel Efficiency: 21 km/L (highway), ~15 km/L (city)",
+    "Safety: Dual SRS Airbags, ABS with EBD, Reinforced Impact Safety Evolution (RISE) body",
+  ],
     image: MirageG4_GLX_CVT,
   },
   {
@@ -97,7 +117,12 @@ export const cars = [
     year: "2025",
     name: "Mirage G4 GLS 1.2G CVT",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC, CVT (Continuously Variable Transmission)",
+    "Power Output: 78 hp @ 6,000 rpm, 100 Nm torque @ 4,000 rpm",
+    "Fuel Efficiency: 21 km/L (highway), ~15 km/L (city)",
+    "Safety: Dual SRS Airbags, ABS with EBD, RISE body, Reverse Camera",
+  ],
     image: MirageG4_GLS_CVT,
   },
   {
@@ -106,7 +131,12 @@ export const cars = [
     year: "2026",
     name: "Mirage G4 GLX 1.2G M/T",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC, 5-speed Manual Transmission",
+    "Power Output: 78 hp @ 6,000 rpm, 100 Nm torque @ 4,000 rpm",
+    "Fuel Efficiency: 20 km/L (highway), ~14 km/L (city)",
+    "Safety: Dual SRS Airbags, ABS with EBD, RISE Body Construction",
+  ],
     image: MirageG4_GLX_MT_2026,
   },
     {
@@ -115,7 +145,12 @@ export const cars = [
     year: "2026",
     name: "Mirage G4 GLX 1.2G CVT",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC, Continuously Variable Transmission (CVT)",
+    "Power Output: 78 hp, 100 Nm torque",
+    "Fuel Efficiency: ~21 km/L (highway), ~15 km/L (city)",
+    "Safety: ABS + EBD, Hill Start Assist, Active Stability Control (ASC), Dual SRS Airbags",
+  ],
     image: MirageG4_GLX_CVT_2026,
   },
     {
@@ -124,7 +159,12 @@ export const cars = [
     year: "2026",
     name: "Mirage G4 GLS 1.2G CVT",
     category: "sedan",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.2L DOHC MIVEC with INVECS-III CVT",
+    "Power Output: 78 hp, 100 Nm torque",
+    "Fuel Efficiency: ~21 km/L (highway), ~15 km/L (city)",
+    "Safety: Dual SRS Airbags, ABS + EBD, HSA, ASC, Reverse Camera",
+  ],
     image: MirageG4_GLS_CVT_2026,
   },
 
