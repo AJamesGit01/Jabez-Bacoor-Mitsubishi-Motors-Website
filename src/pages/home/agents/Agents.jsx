@@ -32,7 +32,7 @@ const Agents = () => {
       {/* Header */}
       <div className="w-full bg-zinc-900 py-5 px-7 rounded-xl mb-8">
         <h1 className="text-2xl font-bold text-center text-white uppercase tracking-wide">
-          Find Your <span className="text-red-600">Agent</span>
+          List of our Verified <span className="text-red-600">Agents</span>
         </h1>
       </div>
 
