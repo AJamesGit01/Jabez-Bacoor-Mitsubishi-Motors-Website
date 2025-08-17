@@ -31,13 +31,14 @@ const Cars = () => {
       </div>
 
       {/* Tabs */}
-      <div className="w-full flex items-center justify-center mb-4">
-        <ul className="inline-flex bg-zinc-800 p-1 rounded-full border border-zinc-600 space-x-1">
+
+      <div className="w-full flex items-center justify-center mb-4 px-2">
+        <ul className="flex md:inline-flex overflow-x-auto md:overflow-visible bg-zinc-800 p-1 rounded-full border border-zinc-600 space-x-2 scrollbar-hide">
           {tabs.map((tab) => (
-            <li key={tab.id}>
+            <li key={tab.id} className="flex-shrink-0">
               <button
                 onClick={() => setActiveTab(tab.id)}
-                className={`cursor-pointer px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 ${
+                className={`cursor-pointer px-4 py-2 text-sm font-medium rounded-full transition-all duration-200 whitespace-nowrap ${
                   activeTab === tab.id
                     ? "bg-red-600 text-white"
                     : "text-zinc-300 hover:bg-zinc-700"
@@ -49,6 +50,7 @@ const Cars = () => {
           ))}
         </ul>
       </div>
+
 
       {/* Car Cards */}
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 px-4">
