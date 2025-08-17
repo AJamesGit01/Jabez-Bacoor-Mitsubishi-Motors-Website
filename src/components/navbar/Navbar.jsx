@@ -39,7 +39,7 @@ const Navbar = () => {
     { name: "Events", link: "/events", active: false },
     { name: "Blogs", link: "/blogs", active: false },
     { name: "Contacts", link: "/contacts", active: false },
-    { name: "Verified Agents", link: "/agents", active: false },
+    { name: "Agents", link: "/agents", active: false },
   ];
 
   return (
@@ -88,8 +88,6 @@ const Navbar = () => {
             <FaBars className="text-xl" />
           </button>
         </div>
-
-
 
         {/* Nav Menu */}
         <div
