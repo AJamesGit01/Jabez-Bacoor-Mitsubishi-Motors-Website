@@ -46,8 +46,8 @@ const Category = () => {
         {/* Right: About Content */}
         <div className="space-y-6 text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-            <span className="text-white">ABOUT OUR </span>
-            <span className="text-red-600">BRAND</span>
+            <span className="text-white">ABOUT </span>
+            <span className="text-red-600">BRANDS</span>
           </h2>
           <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">
             For decades, we’ve been driven by passion for performance and
@@ -57,28 +57,25 @@ const Category = () => {
 
           {/* Category Highlights */}
           <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-6">
-            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md hover:bg-red-600 hover:text-white transition-colors">
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
               <h3 className="text-lg sm:text-xl font-semibold">Luxury</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
                 Experience elegance with our premium car lineup.
               </p>
             </div>
-
-            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md hover:bg-red-600 hover:text-white transition-colors">
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
               <h3 className="text-lg sm:text-xl font-semibold">SUVs</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
                 Power and space designed for every adventure.
               </p>
             </div>
-
-            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md hover:bg-red-600 hover:text-white transition-colors">
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
               <h3 className="text-lg sm:text-xl font-semibold">Affordable</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
                 Reliable and budget-friendly vehicles for daily life.
               </p>
             </div>
-
-            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md hover:bg-red-600 hover:text-white transition-colors">
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
               <h3 className="text-lg sm:text-xl font-semibold">Sports</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
                 High-performance cars built for thrill seekers.
