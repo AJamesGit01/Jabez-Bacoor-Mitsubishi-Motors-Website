@@ -176,7 +176,12 @@ export const cars = [
     price: "₱1,937,000.00",
     name: "Triton 2.4D Athlete 4WD AT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Twin-Turbo Diesel (4N16) with 6-Speed AT (4WD)",
+    "Power Output: 201 hp, 470 Nm torque",
+    "Fuel Efficiency: ~7–10 km/L (mixed terrain), up to ~15 km/L highway",
+    "Safety: FCM w/ Pedestrian Detection, RCTA, 360° Camera, ABS + EBD, 7-Airbags",
+  ],
     image: Triton_Athlete_4WD_AT,
   },
   {
@@ -185,7 +190,12 @@ export const cars = [
     price: "₱1,630,000.00",
     name: "Triton 2.4D GLS 2WD AT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Clean Diesel turbo, 6-Speed Automatic Transmission (2WD)",
+    "Power Output: ~181 hp, ~430 Nm torque (non-Athlete tune)",
+    "Fuel Efficiency: ~7–10 km/L real-world mixed driving; better on smooth roads",
+    "Safety: Dual SRS Airbags, ABS with EBD, Hill-Start Assist, Vehicle Stability Control (GLS features)",
+  ],
     image: Triton_GLS_2WD_AT,
   },
   {
@@ -194,7 +204,12 @@ export const cars = [
     price: "₱1,157,000.00",
     name: "Triton GL 4WD MT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Manual & Easy-Select 4WD",
+    "Power Output: ~181 hp, 430 Nm torque",
+    "Fuel Efficiency: ~15 km/L highway (owner-reported real-world value)",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, ASC, Traction Control",
+  ],
     image: Triton_GL_4WD_MT,
   },
   {
@@ -203,7 +218,12 @@ export const cars = [
     price: "₱1,134,000.00",
     name: "Triton 2.4D GLX 2WD AT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16, EURO4) with 6-Speed Automatic (Sport Mode)",
+    "Power Output: ~181 hp, ~430 Nm torque",
+    "Fuel Efficiency: ~15–16 km/L",
+    "Safety: Hill-Start Assist, Active Stability Control, Traction Control, Dual SRS Airbags, ABS + EBD",
+  ],
     image: Triton_GLX_2WD_AT, 
   },
   {
@@ -212,7 +232,12 @@ export const cars = [
     price: "₱1,351,000.00",
     name: "Triton 2.4D GLX 2WD MT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Manual Transmission (2WD)",
+    "Power Output: ~181 hp (~183 PS), 430 Nm torque",
+    "Fuel Efficiency: ~15.6 km/L highway ",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, Active Stability Control, Traction Control",
+  ],
     image: Triton_GLX_2WD_MT,
   },
   {
@@ -221,7 +246,12 @@ export const cars = [
     price: "₱1,157,000.00",
     name: "Triton 2.4D GL 4WD MT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Manual & Easy-Select 4WD",
+    "Power Output: ~181–183 hp, 430 Nm torque",
+    "Fuel Efficiency: ~15.6 km/L highway ",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, Active Stability Control, Traction Control",
+  ],
     image: Triton_GL_2WD_MTL,
   },
   {
@@ -230,7 +260,12 @@ export const cars = [
     price: "₱1,152,000.00",
     name: "Triton 2.4D GL 2WD MT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Manual (2WD)",
+    "Power Output: ~181 hp, ~430 Nm torque",
+    "Fuel Efficiency: ~15.6 km/L highway ",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, Active Stability Control, Traction Control",
+  ],
     image: Triton__GL_2WD_MTP,
   },
   {
@@ -239,7 +274,12 @@ export const cars = [
     price: "₱1,382,000.00",
     name: "Triton 2.4D GLX 2WD MT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Manual (2WD)",
+    "Power Output: ~181–183 hp, 430 Nm torque",
+    "Fuel Efficiency: ~15.6 km/L highway",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, ASC, Traction Control",
+  ],
     image: Triton_GLX_2WD_MTS,
   },
   {
@@ -248,7 +288,12 @@ export const cars = [
     price: "₱1,454,000.00",
     name: "Triton 2.4D GLX 2WD AT",
     category: "pick-ups",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L Turbo Diesel (4N16) with 6-Speed Automatic (2WD)",
+    "Power Output: ~181–183 hp, 430 Nm torque",
+    "Fuel Efficiency: 14.2 km/L highway",
+    "Safety: Dual SRS Airbags, ABS + EBD, Hill-Start Assist, ASC, Traction Control ISOFIX, Anti-Theft",
+  ],
     image: Triton_GLX_2WD_ATS,
   },
 
