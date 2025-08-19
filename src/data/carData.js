@@ -306,7 +306,12 @@ export const cars = [
     price: "₱1,568,000.00",
     name: "Montero Sport GLX 2.4D 2WD MT",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L diesel, 181 PS / 430 Nm, 6-speed manual, 68 L tank", 
+    "Power Output: 181 PS 3,500 rpm, 430 Nm 2,500 rpm torque",
+    "Fuel Efficiency: 7–10 km/L highway",
+    "Safety: Dual front SRS Airbags, ABS + EBD & Brake Override, Rear camera + parking sensors",
+  ],
     image: Montero_Sport_GLX_2WD_MT,
   },
   {
@@ -315,7 +320,12 @@ export const cars = [
     price: "₱1,583,000.00",
     name: "Montero Sport GLX 2.4D 2WD MT (WHITE)",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L 4N15 MIVEC Turbocharged Diesel (Euro 4)", 
+    "Power Output: 181 PS 3,500 rpm, 430 Nm 2,500 rpm torque",
+    "Fuel Efficiency: 7–10 km/L highway",
+    "Safety: Dual SRS Airbags (driver + passenger), ABS with EBD & Brake Override, Rear parking sensors + reverse camera",
+  ],
     image: Montero_Sport_GLX_2WD_MTW,
   },
   {
@@ -324,7 +334,12 @@ export const cars = [
     price: "₱1,899,000.00",
     name: "Montero Sport GLS 2.4D 2WD AT",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L 4N15 MIVEC turbo-diesel inline-4 engine, Euro-4 compliant", 
+    "Power Output: 179–181 PS 3,500 rpm 430 Nm 2,500 rpm torque",
+    "Fuel Efficiency: 8L/100 km - 12.5 km/L highway",
+    "Safety: Side & curtain airbags, ABS/EBD, stability and hill assists, advanced ADAS ,cameras, sensors",
+  ],
     image: Montero_Sport_GLS_2WD_AT,
   },
     {
@@ -333,7 +348,12 @@ export const cars = [
     price: "₱1,914,000.00",
     name: "Montero Sport GLS 2.4D 2WD AT (WHITE)",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L 4N15 MIVEC Turbo-Diesel (Euro 4) 8-Speed Automatic with Sports Mode", 
+    "Power Output: 179–181 PS 3,500 rpm 430 Nm 2,500 rpm torque",
+    "Fuel Efficiency: 8L/100 km - 12.5 km/L highway",
+    "Safety: 6 airbags, ABS with EBD, stability and hill assist systems, 360 cameras, parking sensors",
+  ],
     image: Montero_Sport_GLS_2WD_ATS,
   },
   {
@@ -342,7 +362,12 @@ export const cars = [
     price: "₱2,162,000.00",
     name: "Montero Sport Black Series 2WD AT",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L 4N15 MIVEC turbocharged diesel engine 8-Speed Automatic with Sports Mode", 
+    "Power Output: 181 PS 3,500 rpm 430 Nm at 2,500 rpm torque",
+    "Fuel Efficiency: 8.9L/100 km - 11.2 km/L highway",
+    "Safety: 6 airbags, ABS with EBD, stability and hill assist systems, 360 cameras, parking sensors",
+  ],
     image: Montero_Sport_BlackSeries_2WD_AT,
   },
     {
@@ -351,7 +376,12 @@ export const cars = [
     price: "₱2,177,000.00",
     name: "Montero Sport Black Series 2WD AT (WHITE)",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L 4N15 MIVEC turbo-diesel 8-Speed Automatic with Sports Mode", 
+    "Power Output: 181 PS 3,500 rpm 430 Nm at 2,500 rpm torque",
+    "Fuel Efficiency: 11.25 km/L - 15.9 km/L highway",
+    "Safety: FCM, UMS, ACC, TSA, 360° view, keyless start, and full airbag protection",
+  ],
     image: Montero_Sport_BlackSeries_2WD_ATW,
   },
   {
@@ -360,7 +390,12 @@ export const cars = [
     price: "₱2,502,000.00",
     name: "Montero Sport Black Series 4WD AT",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L turbo-diesel, 181 PS / 430 Nm, 8-speed AT (Sport Mode), 4WD w/ Off-Road Mode", 
+    "Power Output: 181 PS 3,500 rpm 430 Nm at 2,500 rpm torque",
+    "Fuel Efficiency: 8.9 L/100 km - 11.2 km/L highway",
+    "Safety: Full ADAS suite plus off-road and visibility enhancements",
+  ],
     image: Montero_Sport_BlackSeries_4WD_AT,
   },
   {
@@ -369,7 +404,12 @@ export const cars = [
     price: "₱2,277,000.00",
     name: "Montero Sport Black Series 4WD AT (RALLIART)",
     category: "sports",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 2.4 L turbo-diesel 8-speed AT with Sport Mode; 4WD w/ Off-Road Mode", 
+    "Power Output: 181 PS 3,500 rpm 430 Nm at 2,500 rpm torque",
+    "Fuel Efficiency: 8.9 L/100 km - 11.2 km/L highway",
+    "Safety: Full ADAS suite, comprehensive safety systems, plus RALLIART styling and goodies",
+  ],
     image: Montero_Sport_BlackSeries_4WD_AT_RALLIART,
   },
 
@@ -381,7 +421,12 @@ export const cars = [
     year: "2025",
     name: "Xpander GLX 1.5G 2WD MT",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L 4-cylinder, 16-valve gas engine, 5-speed manual MT, front-wheel drive", 
+    "Power Output: 103 hp / 141 Nm of torque",
+    "Fuel Efficiency: 14–16 km/L highway",
+    "Safety: Dual airbags, ABS/EBD, VSC, TCS, HSA, ISOFIX, EPB, and reminders",
+  ],
     image: Xpander_GLX_1_5G_2WD_MT,
   },
   {
@@ -390,7 +435,12 @@ export const cars = [
     year: "2025",
     name: "Xpander GLX 1.5G 2WD AT",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L 4-cylinder, 16-valve gas engine, 5-speed manual AT, front-wheel drive", 
+    "Power Output: 103 hp / 141 Nm of torque",
+    "Fuel Efficiency: 14–16 km/L highway",
+    "Safety: Dual airbags, ABS/EBD, VSC, TCS, HSA, ISOFIX, EPB, and reminders",
+  ],
     image: Xpander_GLX_1_5G_2WD_AT,
   },
   {
@@ -399,7 +449,12 @@ export const cars = [
     year: "2025",
     name: "Xpander GLS 1.5G 2WD AT",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine with 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 - 4,000 rpm 141 Nm torque ",
+    "Fuel Efficiency: Approx 14–16 km/L highway ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX reverse camera with sensors",
+  ],
     image: Xpander_GLS_1_5G_2WD_AT,
   },
   {
@@ -408,7 +463,12 @@ export const cars = [
     year: "2025",
     name: "Xpander GLS 1.5G 2WD AT (WHITE)",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine with 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 13–14 km/L (city/highway) ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX reverse camera with parking sensors",
+  ],
     image: Xpander_GLS_1_5G_2WD_ATW,
   },
   {
@@ -417,7 +477,12 @@ export const cars = [
     year: "2025",
     name: "Xpander CROSS 1.5G 2WD AT (MONOTONE)",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 12–13 km/L (city/highway) ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX Reinforced body with RISE safety design reverse camera with sensors",
+  ],
     image: Xpander_CROSS_1_5G_2WD_AT_MONOTONE,
   },
   {
@@ -426,7 +491,12 @@ export const cars = [
     year: "2025",
     name: "Xpander CROSS 1.5G 2WD AT (TWOTONE ORANGE)",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 12–15 km/L (city/highway) ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX Reinforced body with RISE safety design reverse camera with sensors",
+  ],
     image: Xpander_CROSS_1_5G_2WD_AT_ORANGE,
   },
   {
@@ -435,7 +505,12 @@ export const cars = [
     year: "2025",
     name: "Xpander CROSS 1.5G 2WD AT (TWOTONE WHITE)",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 13–15 km/L (city/highway) ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX Reinforced body with RISE safety design reverse camera with sensors",
+  ],
     image: Xpander_CROSS_1_5G_2WD_ATW,
   },
   {
@@ -444,7 +519,12 @@ export const cars = [
     year: "2025",
     name: "Xpander CROSS 1.5G 2WD AT",
     category: "mpv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder, 16-valve Gas Engine 4-speed AT Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 13–15 km/L (city/highway) ",
+    "Safety: Dual front airbags ABS with EBD, ASC + TCL + HSA ISOFIX Reinforced body with RISE safety design reverse camera with parking sensors",
+  ],
     image: Xpander_CROSS_1_5G_2WD_AT,
   },
 
