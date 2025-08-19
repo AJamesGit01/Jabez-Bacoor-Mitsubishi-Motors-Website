@@ -35,7 +35,7 @@ const Cars = () => {
           <span className="italic"
            style={{ fontFamily: "arial" }}
           > 
-          Disclaimer: The prices shown in the images may not reflect the actual cost 
+          Disclaimer: The prices and performance shown in the images may not reflect the actual cost 
           of the vehicle. These are provided for reference purposes only.
           </span>
         </p>
