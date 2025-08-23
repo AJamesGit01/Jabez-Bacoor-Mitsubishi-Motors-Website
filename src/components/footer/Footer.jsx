@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-        <span className="block text-sm font-normal text-zinc-600 sm:text-center text-zinc-400">© 2025 <a href="https://www.mitsubishi-motors.com.ph/" target='_blank' className="hover:text-red-600 ease-in-out duration-300">Mitsubishi Jabez Bacoor Motor Corporation</a>. All Rights Reserved.</span>
+        <span className="block text-sm font-normal text-zinc-600 sm:text-center text-zinc-400">© 2025 Mitsubishi Jabez Bacoor Motor Corporation. All Rights Reserved.</span>
     </div>
 </footer>
 

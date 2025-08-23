@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../../../components/layout/Layout";
+import { useEffect } from "react";
 
-import HeroImg from '../../../assets/hero3.png';
+import Mirage from '../../../assets/Mirage-Model.png';
+import Montero from '../../../assets/Montero-Model.png';
+import Triton from '../../../assets/Triton-Model.png';
+import Xforce from '../../../assets/Xforce-Model.png';
+import Xpander from '../../../assets/Xpander-Model.png';
+
 import { GoArrowUpRight } from "react-icons/go";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Hero = () => {
+  // List of cars for slider
+  const images = [Mirage, Montero, Triton, Xforce, Xpander];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Handle navigation
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  }, 4000); // change every 4 seconds
+  return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="w-full md:h-screen h-auto pt-[9ch] relative flex items-center justify-center z-30">
       <Layout className="flex md:flex-row flex-col items-center justify-between gap-10 md:gap-16 z-50">
@@ -53,14 +80,37 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Hero Image */}
-        <div className="md:w-[50%] w-full flex justify-center md:justify-end">
-          <img
-            src={HeroImg}
-            alt="Hero Car"
-            className="w-full max-w-[600px] h-auto object-contain"
-          />
-        </div>
+        {/* Hero Image Slider */}
+          <div className="md:w-[50%] w-full flex justify-center md:justify-end relative">
+            <div className="relative w-full max-w-[600px] h-[300px] sm:h-[400px] md:h-[500px] flex items-center justify-center overflow-hidden">
+              {images.map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt={`Hero Car ${index}`}
+                  className={`absolute w-full h-full object-contain transition-transform duration-700 ease-in-out ${
+                    index === currentIndex ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+                  }`}
+                />
+              ))}
+            </div>
+
+            {/* Prev Button */}
+            <button
+              onClick={prevSlide}
+              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-red-600 transition md:block hidden"
+            >
+              <FaChevronLeft />
+            </button>
+
+            {/* Next Button */}
+            <button
+              onClick={nextSlide}
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-red-600 transition md:block hidden"
+            >
+              <FaChevronRight />
+            </button>
+          </div>
       </Layout>
 
       {/* Background Circle */}
