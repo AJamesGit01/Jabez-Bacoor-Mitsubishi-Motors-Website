@@ -36,7 +36,7 @@ const Navbar = () => {
     { name: "About", link: "/about", active: false },
     { name: "Cars", link: "/cars", active: false },
     { name: "Services", link: "/services", active: false },
-    { name: "Events", link: "/events", active: false },
+    { name: "Bookings", link: "/bookings", active: false },
     { name: "Blogs", link: "/blogs", active: false },
     { name: "Contacts", link: "/contacts", active: false },
     { name: "Agents", link: "/agents", active: false },
