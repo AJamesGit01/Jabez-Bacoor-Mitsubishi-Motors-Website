@@ -536,7 +536,12 @@ export const cars = [
     year: "2025",
     name: "X-Force GLS 1.5G 2WD CVT",
     category: "suv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder Gas Engine (CVT) Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 14–15 km/L (highway) ",
+    "Safety: Dual front airbags ABS with EBD, Brake Assists ASC + TCL + HSA + ESS + RCTA + BSW 360° parking sensors",
+  ],
     image: XForce_GLS_1_5G_2WD_CVT,
   },
   {
@@ -545,7 +550,12 @@ export const cars = [
     year: "2025",
     name: "X-Force GLS 1.5G 2WD CVT (WHITE)",
     category: "suv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder Gas Engine (CVT) Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 14–15 km/L (highway) ",
+    "Safety: Dual front airbags ABS with EBD, Brake Assists ASC + TCL + HSA + ESS + RCTA + BSW 360° parking sensors",
+  ],
     image: XForce_GLS_1_5G_2WD_CVT_WHITE,
   },
   {
@@ -554,7 +564,12 @@ export const cars = [
     year: "2025",
     name: "X-Force GT 1.5G 2WD CVT",
     category: "suv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder Gas Engine (CVT) Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 14–15 km/L (highway) ",
+    "Safety: Dual front airbags ABS with EBD, Brake Assists ASC + TCL + HSA + ESS + RCTA + BSW 360° parking sensors",
+  ],
     image: XForce_GT_1_5G_2WD_CVT, 
   },
   {
@@ -563,7 +578,12 @@ export const cars = [
     year: "2025",
     name: "X-Force GT 1.5G 2WD CVT (WHITE)",
     category: "suv",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder Gas Engine (CVT) Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 14–15 km/L (highway) ",
+    "Safety: Dual front airbags, side & curtain airbags ABS with EBD, Brake Assists ASC + TCL + HSA + ESS + RCTA + BSW 360° parking sensors",
+  ],
     image: XForce_GT_1_5G_2WD_CVT_WHITE, 
   },
   {
@@ -572,7 +592,12 @@ export const cars = [
     year: "2025",
     name: "L300 CC w/FB Body & Dual AC MT",
     category: "all",
-    description: "Description of the car.",
+    description: [
+    "Engine & Transmission: 1.5L MIVEC DOHC, 4-cylinder Gas Engine (CVT) Front-wheel drive (2WD)", 
+    "Power Output: 105 PS 6,000 rpm 141 Nm torque 4,000 rpm",
+    "Fuel Efficiency: 12–13 km/L (city/highway) ",
+    "Safety: Dual front airbags, side & curtain airbags ABS with EBD, Brake Assists ASC + TCL + HSA + ESS + RCTA + BSW 360° parking sensors",
+  ],
     image: L300_FB_Dual_AC_MT,
   },
 ];
