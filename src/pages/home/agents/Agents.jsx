@@ -1,27 +1,11 @@
 import React, { useState } from "react";
 import Layout from '../../../components/layout/Layout';
 import { FaSearch } from "react-icons/fa";
+import agentList from "../../../data/agentsData";
 
 const Agents = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchClicked, setSearchClicked] = useState(false);
-
-  const agentList = [
-    {
-      name: "Allen Abudo",
-      title: "Senior Car Sales Agent",
-      phone: "123-456-7890",
-      email: "Alendo@dealership.com",
-      image: "/images/agents/aldo.jpg"
-    },
-    {
-      name: "Jane Marie",
-      title: "Luxury Vehicle Specialist",
-      phone: "987-654-3210",
-      email: "jane@dealership.com",
-      image: "/images/agents/jane.jpg"
-    }
-  ];
 
   const filteredAgents = agentList.filter(agent =>
     agent.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -40,7 +24,7 @@ const Agents = () => {
       <div className="flex items-center gap-3 mb-6">
         <input
           type="text"
-          placeholder="Enter agent name..."
+          placeholder="Enter Agent Name"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full p-3 rounded-lg bg-zinc-800 text-white outline-none"
@@ -66,7 +50,7 @@ const Agents = () => {
                   <img
                     src={agent.image}
                     alt={agent.name}
-                    className="w-full h-48 object-cover rounded-lg mb-4"
+                    className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
                   />
                   <h2 className="text-xl font-bold text-white">{agent.name}</h2>
                   <p className="text-red-500">{agent.title}</p>
@@ -76,7 +60,7 @@ const Agents = () => {
               ))}
             </div>
           ) : (
-            <p className="text-white text-center mt-6">No agents found.</p>
+            <p className="text-white text-center mt-6">No SC or SE Agent found.</p>
           )}
         </>
       )}
