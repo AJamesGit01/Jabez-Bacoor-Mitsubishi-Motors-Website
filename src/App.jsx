@@ -5,7 +5,7 @@ import About from "./pages/home/about/About";
 import Cars from './pages/home/cars/Cars'; 
 import Services from './pages/home/services/Services'; 
 import Agents from './pages/home/agents/Agents'; 
-import Events from "./pages/home/events/Events";
+import Events from "./pages/home/bookings/Bookings";
 import Blogs from './pages/home/blog/Blogs';
 import Contacts from './pages/home/contacts/Contacts'; 
 import Footer from './components/footer/Footer';
@@ -22,7 +22,7 @@ function App() {
             <Route path="/cars" element={<Cars />} />
             <Route path="/services" element={<Services />} />
             <Route path="/agents" element={<Agents />} />
-            <Route path="/events" element={<Events />} />
+            <Route path="/bookings" element={<Events />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
