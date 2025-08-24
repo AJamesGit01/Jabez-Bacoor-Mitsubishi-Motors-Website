@@ -1,0 +1,238 @@
+  import _Agent_Female from '../assets/female-agent.png'
+  import _Agent_Male from '../assets/male-agent.png'
+  
+  const agentList = [
+    {
+      name: "SA Executive 01",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive01@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },
+    {
+      name: "SA Executive 02",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive02@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },    
+    {
+      name: "SA Executive 03",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive03@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },
+    {
+      name: "SA Executive 04",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive04@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },
+    {
+      name: "SA Executive 05",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive05@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },
+    {
+      name: "SA Executive 06",
+      title: "Jabez Sales Account Executive",
+      phone: "123-456-7890",
+      email: "sales_account_executive06@gmail.com",
+      image: "/images/agents/aldo.jpg"
+    },
+    {
+      name: "SC Agent 01",
+      title: "Jabez Sales Consultant Agent",
+      phone: "123-456-7890",
+      email: "sales_agent_01@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 02",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_02@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 03",
+      title: "Jabez Sales Consultant Agent",
+      phone: "123-456-7890",
+      email: "sales_agent_03@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 04",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_04@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 05",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_05@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 06",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_06@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 07",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_07@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 08",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_08@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 09",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_09@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 10",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_10@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 11",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_11@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 12",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_12@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 13",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_13@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 14",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_14@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 15",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_15@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 16",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_16@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 17",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_17@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 18",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_18@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 19",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_19@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 20",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_20@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 21",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_21@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 22",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_22@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 23",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_23@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 24",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_24@gmail.com",
+      image: _Agent_Female,
+    },
+    {
+      name: "SC Agent 25",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_25@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 26",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_26@gmail.com",
+      image: _Agent_Male,
+    },
+    {
+      name: "SC Agent 27",
+      title: "Jabez Sales Consultant Agent",
+      phone: "987-654-3210",
+      email: "sales_agent_27@gmail.com",
+      image: _Agent_Male,
+    }
+  ];
+
+  export default agentList;
