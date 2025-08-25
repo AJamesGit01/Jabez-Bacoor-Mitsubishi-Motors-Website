@@ -65,7 +65,7 @@ export const cars = [
     "Engine & Transmission: 1.2L MIVEC DOHC, CVT",
     "Power Output: 76–78 HP, 100 Nm torque",
     "Fuel Efficiency: 20–21 km/L (highway)",
-    "Safety: Dual airbags, ABS, EBD",
+    "Safety: Dual airbags, ABS, EBD, ASC, HSA, dual SRS airbags, ISO-Fix, more",
   ],
   image: MirageBlackSeriesCVT,
   },
