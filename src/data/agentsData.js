@@ -1,48 +1,48 @@
   import _Agent_Female from '../assets/female-agent.png'
   import _Agent_Male from '../assets/male-agent.png'
-  
+ 
   const agentList = [
     {
       name: "SA Executive 01",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive01@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Male,
     },
     {
       name: "SA Executive 02",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive02@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Male,
     },    
     {
       name: "SA Executive 03",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive03@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Male,
     },
     {
       name: "SA Executive 04",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive04@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Female,
     },
     {
       name: "SA Executive 05",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive05@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Female,
     },
     {
       name: "SA Executive 06",
       title: "Jabez Sales Account Executive",
       phone: "123-456-7890",
       email: "sales_account_executive06@gmail.com",
-      image: "/images/agents/aldo.jpg"
+      image: _Agent_Female,
     },
     {
       name: "SC Agent 01",
