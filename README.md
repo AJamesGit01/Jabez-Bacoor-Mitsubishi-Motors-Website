@@ -9,17 +9,16 @@ Our goal is to create an **accessible, modern, and user-friendly website** that 
 ---
 
 ## 👨‍💻 Development Team  
-- [Your Name] – Project Lead / Frontend Developer  
-- [Teammate Name] – Backend Developer  
-- [Teammate Name] – UI/UX Designer  
-- [Teammate Name] – Documentation & Testing  
+- Allen James G. Datuin –  Frontend/Backend Developer 
+- Rosemarie A. Abelon – UI/UX Designer  
+- Christian Rodriguez – Frontend Developer    
 
 ---
 
 ## 🛠️ Tech Stack  
 - **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js  
-- **Database & Hosting:** Firebase  
+- **Backend:** Node.js, Firebase  
+- **Web Hosting:** Vercel  
 - **Version Control:** Git & GitHub  
 
 ---
@@ -30,7 +29,7 @@ Our goal is to create an **accessible, modern, and user-friendly website** that 
 - 🛠️ **Services** – Overview of after-sales and maintenance services  
 - 📅 **Bookings** – Online booking feature for test drives and services  
 - 📰 **Blogs** – Articles and updates about Mitsubishi and dealership news  
-- 📞 **Contact** – Easy-to-access customer inquiry and support  
+- 📞 **Contacts** – Social Media platforms  
 
 ---
 
