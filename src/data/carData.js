@@ -45,10 +45,10 @@ import Xpander_CROSS_1_5G_2WD_AT from '../assets/Xpander/Xpander CROSS 1.5G 2WD 
 
 // X-Force
 
-import XForce_GLS_1_5G_2WD_CVT from '../assets/X-Force/X-Force GLS 1.5G 2WD CVT.png';
-import XForce_GLS_1_5G_2WD_CVT_WHITE from '../assets/X-Force/X-Force GLS 1.5G 2WD CVT (WHITE).png';
-import XForce_GT_1_5G_2WD_CVT from '../assets/X-Force/X-Force GT 1.5G 2WD CVT.png';
-import XForce_GT_1_5G_2WD_CVT_WHITE from '../assets/X-Force/X-Force GT 1.5G 2WD CVT (WHITE).png';
+import XForce_GLS_1_5G_2WD_CVT from '../assets/X-force/X-Force GLS 1.5G 2WD CVT.png';
+import XForce_GLS_1_5G_2WD_CVT_WHITE from '../assets/X-force/X-Force GLS 1.5G 2WD CVT (WHITE).png';
+import XForce_GT_1_5G_2WD_CVT from '../assets/X-force/X-Force GT 1.5G 2WD CVT.png';
+import XForce_GT_1_5G_2WD_CVT_WHITE from '../assets/X-force/X-Force GT 1.5G 2WD CVT (WHITE).png';
 import L300_FB_Dual_AC_MT from '../assets/X-force/Truck/L300 CC w-FB Body & Dual AC MT.png';
 
 export const cars = [
