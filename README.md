@@ -35,7 +35,7 @@ Our goal is to create an **accessible, modern, and user-friendly website** that 
 
 ## 🚀 Deployment  
 The project is deployed and accessible online.  
-👉 [[Here's the deployment link available](https://jabez-bacoor-mitsubishi-motors-webs.vercel.app/)]  
+👉 [[Jabez Bacoor Motor Corporation](https://jabez-bacoor-mitsubishi-motors-webs.vercel.app/)]  
 
 To run the project locally:  
 
