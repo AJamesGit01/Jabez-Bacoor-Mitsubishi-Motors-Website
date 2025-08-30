@@ -46,11 +46,11 @@ const Category = () => {
         {/* Right: About Content */}
         <div className="space-y-6 text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-            <span className="text-white">ABOUT </span>
-            <span className="text-red-600">BRANDS</span>
+            <span className="text-white">OUR BRAND </span>
+            <span className="text-red-600">MODELS</span>
           </h2>
           <p className="text-base sm:text-lg text-zinc-400 leading-relaxed">
-            For decades, we’ve been driven by passion for performance and
+            For years, we’ve been driven by passion for performance and
             precision engineering. Our vehicles are designed to push the limits
             of innovation while ensuring comfort, safety, and reliability.
           </p>
@@ -58,27 +58,45 @@ const Category = () => {
           {/* Category Highlights */}
           <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-6">
             <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
-              <h3 className="text-lg sm:text-xl font-semibold">Luxury</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">Affordable Vehicles</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
-                Experience elegance with our premium car lineup.
+                Our affordable Mitsubishi vehicles are built with your family in mind spacious interiors,advanced safety 
+                features, and fuel-efficient engines ensure comfort and peace of mind without stretching your budget.
               </p>
             </div>
             <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
-              <h3 className="text-lg sm:text-xl font-semibold">SUVs</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">Sedan's Vehicles</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
-                Power and space designed for every adventure.
+                Drive smarter with our fuel-efficient sedans. Designed for long commutes and city driving, 
+                they combine powerful performance with impressive mileage giving you more value with every trip.
               </p>
             </div>
             <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
-              <h3 className="text-lg sm:text-xl font-semibold">Affordable</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">Pick-Up's Vehicles</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
-                Reliable and budget-friendly vehicles for daily life.
+                Experience the perfect balance of strength and comfort. Equipped with modern technology, 
+                spacious cabins, and premium features, our pick-ups prove that Mitsubishi's power is impressive.
               </p>
             </div>
             <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
-              <h3 className="text-lg sm:text-xl font-semibold">Sports</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">Sport's Vehicles</h3>
               <p className="text-xs sm:text-sm text-zinc-400">
-                High-performance cars built for thrill seekers.
+                With striking designs and performance that commands attention, Mitsubishi’s sports lineup 
+                embodies speed, strength, and style.They are not just cars they are a statement of power and confidence.
+              </p>
+            </div>
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">MPV's Vehicles</h3>
+              <p className="text-xs sm:text-sm text-zinc-400">
+                Built for versatility, Mitsubishi MPVs combine fuel efficiency, reliable performance, and 
+                advanced features to meet the demands of modern family life they ensure every trip is safer and more enjoyable.
+              </p>
+            </div>
+            <div className="bg-zinc-900 p-4 sm:p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">SUV's Vehicles</h3>
+              <p className="text-xs sm:text-sm text-zinc-400">
+                With bold design Mitsubishi SUVs, advanced safety, and versatile performance, they’re 
+                ready for both urban roads and off-road challenges, giving you comfort and control at every turn.
               </p>
             </div>
           </div>

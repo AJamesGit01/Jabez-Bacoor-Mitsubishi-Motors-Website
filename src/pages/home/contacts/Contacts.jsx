@@ -20,9 +20,6 @@ const Contacts = () => {
         <a href="https://www.youtube.com/c/MitsubishiMotorsPhilippines" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors">
           <FaYoutube />
         </a>
-        <a href="https://x.com/mitsucars" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">
-          <FaTwitter />
-        </a>
       </div>
     </section>
   );

@@ -50,8 +50,8 @@ const Hero = () => {
             </div>
 
             <p className="text-xs sm:text-sm md:text-base text-zinc-400 font-normal">
-              Mitsubishi empowers you to move forward with confidence. Every vehicle is designed to reflect your drive—your goals, your lifestyle, your passion.
-              Chase your dreams fearlessly, take the wheel of life with determination, and go beyond limits. With Mitsubishi, you're not just driving a car—
+              Mitsubishi empowers you to move forward with confidence. Every vehicle is designed to reflect your drive your goals, your lifestyle, your passion.
+              Chase your dreams fearlessly, take the wheel of life with determination, and go beyond limits. With Mitsubishi, you're not just driving a car
               you're <span className="text-red-600">Driving your ambition.</span>
             </p>
           </div>
